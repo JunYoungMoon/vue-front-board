@@ -67,7 +67,7 @@ export default {
 			
 		}
 		,fnAddProc() { //등록 프로세스
-			if(!this.subject) { //제목이 없다면 값을 입력하라고 알려준다.
+			if(!this.subject) { //제목이 없다면 값을 입력.
 				alert("제목을 입력해 주세요");
 				this.$refs.subject.focus(); //방식으로 선택자를 찾는다.
 				return;
