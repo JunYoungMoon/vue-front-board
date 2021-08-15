@@ -9,7 +9,7 @@
 export default {
 	methods:{
 		getList() {			
-      this.$axios.get("http://localhost/api/board")
+      this.$axios.get("http://localhost/spring")
 			.then((res)=>{
 				console.log(res);
 			})

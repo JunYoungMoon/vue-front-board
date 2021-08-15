@@ -80,7 +80,7 @@ export default {
 				,id:this.id
 			} 
 			
-			this.$axios.post('http://localhost/api/board',this.form)
+			this.$axios.post('http://localhost/spring',this.form)
 			.then((res)=>{
 				if(res.data.success) {
 					alert('등록되었습니다.');
